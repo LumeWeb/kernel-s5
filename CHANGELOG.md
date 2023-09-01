@@ -1,3 +1,10 @@
+# [0.1.0-develop.3](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.2...v0.1.0-develop.3) (2023-09-01)
+
+
+### Features
+
+* add getRegistryEntry, setRegistryEntry, registrySubscription ([fa04bb5](https://git.lumeweb.com/LumeWeb/kernel-s5/commit/fa04bb5e3066ed8efba083db55f31145c21f41ee))
+
 # [0.1.0-develop.2](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.1...v0.1.0-develop.2) (2023-09-01)
 
 
