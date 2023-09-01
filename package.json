@@ -1,0 +1,26 @@
+{
+    "name": "@lumeweb/kernel-s5",
+    "version": "0.1.0",
+    "type": "module",
+    "readme": "ERROR: No README data found!",
+    "_id": "@lumeweb/kernel-s5@0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "gitea@git.lumeweb.com:LumeWeb/kernel-s5.git"
+    },
+    "scripts": {
+        "prepare": "presetter bootstrap",
+        "build": "run build",
+        "semantic-release": "semantic-release"
+    },
+    "dependencies": {
+        "@lumeweb/kernel-protomux-client": "^0.0.2-develop.16",
+        "@lumeweb/kernel-swarm-client": "^0.1.0-develop.5",
+        "@lumeweb/libkernel": "^0.1.0-develop.36",
+        "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.10",
+        "whatwg-url": "^13.0.0"
+    },
+    "devDependencies": {
+        "@lumeweb/presetter-kernel-module-preset": "^0.1.0-develop.44"
+    }
+}

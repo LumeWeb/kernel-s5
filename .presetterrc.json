@@ -1,0 +1,27 @@
+{
+  "preset": [
+    "@lumeweb/presetter-kernel-module-preset"
+  ],
+  "config": {
+    "official": true,
+    "vite": {
+      "resolve": {
+        "alias": {
+          "protomux": "@lumeweb/kernel-protomux-client",
+          "url": "whatwg-url"
+        }
+      },
+      "polyfill": {
+        "exclude": [
+          "fs",
+          "url"
+        ]
+      }
+    },
+    "tsconfig": {
+      "compilerOptions": {
+        "module": "nodenext"
+      }
+    }
+  }
+}
