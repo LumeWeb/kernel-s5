@@ -1,9 +1,8 @@
 {
     "name": "@lumeweb/kernel-s5",
-    "version": "0.1.0",
+    "version": "0.1.0-develop.1",
     "type": "module",
     "readme": "ERROR: No README data found!",
-    "_id": "@lumeweb/kernel-s5@0.1.0",
     "repository": {
         "type": "git",
         "url": "gitea@git.lumeweb.com:LumeWeb/kernel-s5.git"
