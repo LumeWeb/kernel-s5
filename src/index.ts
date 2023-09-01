@@ -78,6 +78,8 @@ async function setup() {
     node.services.p2p.onNewPeer(s5peer, true);
   });
 }
-async function ready() {
+async function ready(aq: ActiveQuery) {
   await moduleReadyDefer.promise;
+
+  aq.respond();
 }
