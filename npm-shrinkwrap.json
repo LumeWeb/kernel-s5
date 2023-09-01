@@ -1,12 +1,12 @@
 {
     "name": "@lumeweb/kernel-s5",
-    "version": "0.1.0-develop.3",
+    "version": "0.1.0-develop.4",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
             "name": "@lumeweb/kernel-s5",
-            "version": "0.1.0-develop.3",
+            "version": "0.1.0-develop.4",
             "dependencies": {
                 "@lumeweb/kernel-protomux-client": "^0.0.2-develop.16",
                 "@lumeweb/kernel-swarm-client": "^0.1.0-develop.5",
