@@ -11,7 +11,7 @@
                 "@lumeweb/kernel-protomux-client": "^0.0.2-develop.16",
                 "@lumeweb/kernel-swarm-client": "^0.1.0-develop.5",
                 "@lumeweb/libkernel": "^0.1.0-develop.36",
-                "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.16",
+                "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.17",
                 "whatwg-url": "^13.0.0"
             },
             "devDependencies": {
@@ -1747,9 +1747,9 @@
             }
         },
         "node_modules/@lumeweb/libs5": {
-            "version": "0.1.0-develop.24",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libs5/-/libs5-0.1.0-develop.24.tgz",
-            "integrity": "sha512-d2QP9t6/+Cilzt102Jk1baJW/sSXKOOd0tFyR7EnkFVry6HA/6HCoOGXy6/V1IpFPo0JfH63M/bi4nLNfPfcjg==",
+            "version": "0.1.0-develop.25",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libs5/-/libs5-0.1.0-develop.25.tgz",
+            "integrity": "sha512-kqvMrAU3fZLFwAqVwv0btu7dx0wBN/XkCGV9LivCoUz2DIT0T63W1Xv4LinpqDIZmbiXNmYt0CVQAhfe53b2UA==",
             "dependencies": {
                 "@noble/curves": "^1.1.0",
                 "@noble/hashes": "^1.3.1",
@@ -1761,11 +1761,11 @@
             }
         },
         "node_modules/@lumeweb/libs5-transport-hyper": {
-            "version": "0.1.0-develop.16",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libs5-transport-hyper/-/libs5-transport-hyper-0.1.0-develop.16.tgz",
-            "integrity": "sha512-3Qo0lPF6oK3Uxh+cxxLSSyn+5ZyAd4zSp1SmJhifn76yypvhID5Rc9zwpAV+4m8EHWO4CBwu4xCn25wArLKKNA==",
+            "version": "0.1.0-develop.17",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libs5-transport-hyper/-/libs5-transport-hyper-0.1.0-develop.17.tgz",
+            "integrity": "sha512-pUHyvbBEONccllEfeg56ozxgYp/Y9cDwfBMdIeWohGgT5cNFCzN5sBzlcaM5J07ALAf2nlJSRINKdvXZ3t4NMg==",
             "dependencies": {
-                "@lumeweb/libs5": "^0.1.0-develop.24",
+                "@lumeweb/libs5": "^0.1.0-develop.25",
                 "streamx": "^2.15.1"
             }
         },
