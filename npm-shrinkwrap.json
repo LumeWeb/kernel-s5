@@ -10,8 +10,8 @@
             "dependencies": {
                 "@lumeweb/kernel-protomux-client": "^0.0.2-develop.19",
                 "@lumeweb/kernel-swarm-client": "^0.1.0-develop.8",
-                "@lumeweb/libkernel": "^0.1.0-develop.36",
-                "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.17",
+                "@lumeweb/libkernel": "^0.1.0-develop.38",
+                "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.18",
                 "whatwg-url": "^13.0.0"
             },
             "devDependencies": {
@@ -1762,11 +1762,11 @@
             }
         },
         "node_modules/@lumeweb/libs5-transport-hyper": {
-            "version": "0.1.0-develop.17",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libs5-transport-hyper/-/libs5-transport-hyper-0.1.0-develop.17.tgz",
-            "integrity": "sha512-pUHyvbBEONccllEfeg56ozxgYp/Y9cDwfBMdIeWohGgT5cNFCzN5sBzlcaM5J07ALAf2nlJSRINKdvXZ3t4NMg==",
+            "version": "0.1.0-develop.18",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libs5-transport-hyper/-/libs5-transport-hyper-0.1.0-develop.18.tgz",
+            "integrity": "sha512-i9Ejrf7MBOW9kmxoYSA+qDGNM7AlW/3WgY+eXNCG1SrVK5eoQYV/Cm6XQisUaP1CP6pqRT++NmqNOBFBCKCvFA==",
             "dependencies": {
-                "@lumeweb/libs5": "^0.1.0-develop.25",
+                "@lumeweb/libs5": "^0.1.0-develop.43",
                 "streamx": "^2.15.1"
             }
         },
