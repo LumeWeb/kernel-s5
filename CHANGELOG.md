@@ -1,3 +1,10 @@
+# [0.1.0-develop.5](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.4...v0.1.0-develop.5) (2023-09-02)
+
+
+### Bug Fixes
+
+* use CID_HASH_TYPES.ED25519 over mkeyEd25519 ([6c76768](https://git.lumeweb.com/LumeWeb/kernel-s5/commit/6c76768fe0f735d49f13cbd13b5682dd990e088c))
+
 # [0.1.0-develop.4](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.3...v0.1.0-develop.4) (2023-09-01)
 
 # [0.1.0-develop.3](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.2...v0.1.0-develop.3) (2023-09-01)
