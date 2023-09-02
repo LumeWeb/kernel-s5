@@ -53,6 +53,8 @@ async function handlePresentKey(aq: ActiveQuery) {
 async function setup() {
   swarm = createSwarmClient();
 
+  const peerConnectedDefer = defer();
+
   const db = new Level<string, Uint8Array>("s5");
   await db.open();
   let config = {
@@ -90,7 +92,10 @@ async function setup() {
 
     await s5peer.init();
     node.services.p2p.onNewPeer(s5peer, true);
+    peerConnectedDefer.resolve();
   });
+
+  return peerConnectedDefer.promise;
 }
 
 async function ready(aq: ActiveQuery) {
