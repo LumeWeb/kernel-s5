@@ -12,12 +12,12 @@ import {
 } from "@lumeweb/kernel-swarm-client";
 import Protomux from "@lumeweb/kernel-protomux-client";
 import {
+  CID_HASH_TYPES,
   createKeyPair,
   createNode,
   NodeId,
   S5NodeConfig,
 } from "@lumeweb/libs5";
-import { mkeyEd25519 } from "@lumeweb/libs5";
 import type { S5Node } from "@lumeweb/libs5";
 import KeyPairEd25519 from "@lumeweb/libs5/lib/ed25519.js";
 import { Level } from "level";
@@ -82,7 +82,10 @@ async function setup() {
     });
 
     s5peer.id = new NodeId(
-      concatBytes(Uint8Array.from([mkeyEd25519]), peer.remotePublicKey),
+      concatBytes(
+        Uint8Array.from([CID_HASH_TYPES.ED25519]),
+        peer.remotePublicKey,
+      ),
     );
 
     await s5peer.init();
