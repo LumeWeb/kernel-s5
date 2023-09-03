@@ -1,3 +1,10 @@
+# [0.1.0-develop.6](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.5...v0.1.0-develop.6) (2023-09-02)
+
+
+### Bug Fixes
+
+* have setup hang until we have a connected peer ([dcc72b9](https://git.lumeweb.com/LumeWeb/kernel-s5/commit/dcc72b9cec9e7e97d3bdbcc1449fae2ae9b04552))
+
 # [0.1.0-develop.5](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.4...v0.1.0-develop.5) (2023-09-02)
 
 
