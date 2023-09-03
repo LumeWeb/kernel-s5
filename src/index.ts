@@ -115,6 +115,8 @@ async function handleGetRegistryEntry(aq: ActiveQuery) {
 
   pubkey = ensureBytes("registry entry ", pubkey, 32);
 
+  pubkey = concatBytes(Uint8Array.from([CID_HASH_TYPES.ED25519]), pubkey);
+
   const ret = await node.services.registry.get(pubkey);
 
   if (!ret) {
@@ -124,6 +126,7 @@ async function handleGetRegistryEntry(aq: ActiveQuery) {
 
   aq.respond(ret);
 }
+
 async function handleSetRegistryEntry(aq: ActiveQuery) {
   for (const field of ["key", "data", "revision"]) {
     if (!(field in aq.callerInput)) {
