@@ -92,7 +92,7 @@ async function setup() {
 
     await s5peer.init();
     node.services.p2p.onNewPeer(s5peer, true);
-    peerConnectedDefer.resolve();
+    node.services.p2p.once("peerConnected", peerConnectedDefer.resolve);
   });
 
   return peerConnectedDefer.promise;
