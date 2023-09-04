@@ -1,3 +1,10 @@
+# [0.1.0-develop.8](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.7...v0.1.0-develop.8) (2023-09-04)
+
+
+### Bug Fixes
+
+* have peerConnectedDefer resolve when we have a connected peer via peerConnected ([beb4215](https://git.lumeweb.com/LumeWeb/kernel-s5/commit/beb42152b829196af26fc70f3189e8ade651c717))
+
 # [0.1.0-develop.7](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.6...v0.1.0-develop.7) (2023-09-03)
 
 
