@@ -12,6 +12,7 @@ import {
 } from "@lumeweb/kernel-swarm-client";
 import Protomux from "@lumeweb/kernel-protomux-client";
 import {
+  CID,
   CID_HASH_TYPES,
   createKeyPair,
   createNode,
@@ -37,6 +38,7 @@ addHandler("setRegistryEntry", handleSetRegistryEntry);
 addHandler("registrySubscription", handleRegistrySubscription, {
   receiveUpdates: true,
 });
+addHandler("cat", handleCat);
 
 async function handlePresentKey(aq: ActiveQuery) {
   handlePresentKeyModule({
@@ -177,4 +179,21 @@ async function handleRegistrySubscription(aq: ActiveQuery) {
 
   await wait.promise;
   aq.respond();
+}
+
+async function handleCat(aq: ActiveQuery) {
+  if (!("cid" in aq.callerInput)) {
+    aq.reject("cid required");
+    return;
+  }
+
+  try {
+    const ret = await node.downloadBytesByHash(
+      CID.decode(aq.callerInput.cid as string).hash,
+    );
+
+    aq.respond(ret);
+  } catch (e) {
+    aq.reject(e);
+  }
 }
