@@ -1,3 +1,10 @@
+# [0.1.0-develop.12](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.11...v0.1.0-develop.12) (2023-11-17)
+
+
+### Features
+
+* add cat api ([024cb50](https://git.lumeweb.com/LumeWeb/kernel-s5/commit/024cb507d14ca9cf722dbebc428e56b5ea63cbac))
+
 # [0.1.0-develop.11](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.10...v0.1.0-develop.11) (2023-10-13)
 
 # [0.1.0-develop.10](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.9...v0.1.0-develop.10) (2023-09-20)
