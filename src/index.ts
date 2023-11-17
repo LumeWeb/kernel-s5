@@ -39,6 +39,7 @@ addHandler("registrySubscription", handleRegistrySubscription, {
   receiveUpdates: true,
 });
 addHandler("cat", handleCat);
+addHandler("stat", handleStat);
 
 async function handlePresentKey(aq: ActiveQuery) {
   handlePresentKeyModule({
@@ -193,6 +194,19 @@ async function handleCat(aq: ActiveQuery) {
     );
 
     aq.respond(ret);
+  } catch (e) {
+    aq.reject(e);
+  }
+}
+async function handleStat(aq: ActiveQuery) {
+  if (!("cid" in aq.callerInput)) {
+    aq.reject("cid required");
+    return;
+  }
+
+  try {
+    const ret = await node.getMetadataByCID(aq.callerInput.cid);
+    aq.respond(ret.toJson());
   } catch (e) {
     aq.reject(e);
   }
