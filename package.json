@@ -15,7 +15,7 @@
     "dependencies": {
         "@lumeweb/kernel-protomux-client": "^0.0.2-develop.22",
         "@lumeweb/kernel-swarm-client": "^0.1.0-develop.12",
-        "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.19",
+        "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.20",
         "whatwg-url": "^13.0.0"
     },
     "devDependencies": {
