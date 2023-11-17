@@ -1,3 +1,10 @@
+# [0.1.0-develop.13](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.12...v0.1.0-develop.13) (2023-11-17)
+
+
+### Features
+
+* add stat api ([2db701f](https://git.lumeweb.com/LumeWeb/kernel-s5/commit/2db701fb92cab25c01ac25d1da5ad8839125545c))
+
 # [0.1.0-develop.12](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.11...v0.1.0-develop.12) (2023-11-17)
 
 
