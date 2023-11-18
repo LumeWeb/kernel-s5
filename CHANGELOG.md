@@ -1,3 +1,10 @@
+# [0.1.0-develop.15](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.14...v0.1.0-develop.15) (2023-11-18)
+
+
+### Bug Fixes
+
+* need to pass CID object ([003d42a](https://git.lumeweb.com/LumeWeb/kernel-s5/commit/003d42ac09e2833f23f8b0e6d1268424cbfd2f9d))
+
 # [0.1.0-develop.14](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.13...v0.1.0-develop.14) (2023-11-17)
 
 # [0.1.0-develop.13](https://git.lumeweb.com/LumeWeb/kernel-s5/compare/v0.1.0-develop.12...v0.1.0-develop.13) (2023-11-17)
