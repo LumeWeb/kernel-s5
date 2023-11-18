@@ -205,7 +205,7 @@ async function handleStat(aq: ActiveQuery) {
   }
 
   try {
-    const ret = await node.getMetadataByCID(aq.callerInput.cid);
+    const ret = await node.getMetadataByCID(CID.decode(aq.callerInput.cid));
     aq.respond(ret.toJson());
   } catch (e) {
     aq.reject(e);
